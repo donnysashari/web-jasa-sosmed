@@ -1,0 +1,43 @@
+.btn-orange {
+    background-color:  $orange-color;
+    color: $white-color;
+    padding: 8px 40px;
+
+    &.active {
+        color: $orange-color;
+    }
+
+    &:hover {
+        color: $orange-color;
+        background-color: $white-color;
+    }
+}
+.btn-orange-outline {
+    color: $orange-color;
+    border-color: $orange-color;
+    border-radius: 13px;
+    border: 5px solid #F06305;
+    box-sizing: border-box;
+    &.active {
+        color: $orange-color;
+    }
+
+    &:hover {
+        color: $orange-color;
+        background-color: $white-color;
+    }
+}
+.btn-blue {
+    background-color:  $blue-color;
+    color: $white-color;
+    padding: 8px 40px;
+
+    &.active {
+        color: $blue-color;
+    }
+
+    &:hover {
+        color: $blue-color;
+        background-color: $white-color;
+    }
+}

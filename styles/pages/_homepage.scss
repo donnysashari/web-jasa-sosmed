@@ -1,0 +1,106 @@
+.hero {
+    background-color: $white-color;
+    margin-bottom: 100px;
+    h1 {
+        font-size : $heading-2-size;
+        font-weight: 700;
+        font-size: 40px;
+        color: $black-color;
+        letter-spacing: -0.015em;
+        line-height: 49px;
+    }
+    p {
+        font-size : $body-1-size;
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        letter-spacing: -0.08em;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 0.74);
+        width: 480px;
+        height: 123px;
+        left: 130px;
+        top: 373px;
+    }
+    
+
+.reason{
+    background-color: $blue-color;
+    h2{
+        color: $white-color;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 72px;
+        /* or 150% */
+
+        text-align: center;
+        letter-spacing: -0.015em;
+
+    }
+    .card{
+        .card-service{
+            
+            width: 250px;
+            align-items: center;
+
+            img{
+                width: 100px;
+                position: inline-block;
+                align-items: center;
+    
+            }
+            h3{
+                font-size: $heading-4-size;
+                font-weight: 600;
+                color: $black-color;
+            }
+            p{
+                display: flex;
+                width: 211px;
+                height: 215px;  
+                overflow:hidden;
+                align-items: center;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                text-align: center;
+                letter-spacing: -0.015em;
+
+                color: rgba(0, 0, 0, 0.8);
+
+            }
+        }
+        
+    }
+    .card-destination {
+        height: 350px;
+        background-size: cover;
+        border-radius: 10px;
+
+        .card-body{
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.96%, #000000 100%);
+            border-radius: 10px;
+            position: relative;
+
+            .content{
+                position: absolute;
+                bottom: 20px;
+                h3{
+                    color: $white-color;
+                }
+                p{
+                    color: $soft-grey-color;
+                    padding: auto;
+                }
+            }
+        }
+    }
+}
+
+}
+
+.footer{
+    background-color: $blue-color;
+}

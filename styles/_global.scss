@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    max-width:  100%;
+}
+
+
+section {
+    padding: 90px 0;
+
+    .section-tittle {
+        font-size: $heading-1-size;
+        font-style:normal;
+        font-weight: 700;
+        color: $black-color;
+    }
+}
