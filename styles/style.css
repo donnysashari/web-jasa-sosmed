@@ -141,25 +141,34 @@ section .section-tittle {
   letter-spacing: -0.015em;
 }
 
+.hero .reason .card .card-body {
+  text-align: center;
+}
+
 .hero .reason .card .card-service {
   width: 250px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  height: 500px;
+  padding-right: 20px;
 }
 
 .hero .reason .card .card-service img {
-  width: 100px;
-  position: inline-block;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  width: 80px;
+  height: 80px;
+  left: 217px;
 }
 
 .hero .reason .card .card-service h3 {
   font-size: 24px;
   font-weight: 600;
   color: #1D1D1D;
+  text-align: center;
+  width: 211px;
+  height: 72px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.015em;
 }
 
 .hero .reason .card .card-service p {
@@ -167,11 +176,8 @@ section .section-tittle {
   display: -ms-flexbox;
   display: flex;
   width: 211px;
-  height: 215px;
-  overflow: hidden;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  height: 194px;
+  margin-top: 20px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -181,34 +187,410 @@ section .section-tittle {
   color: rgba(0, 0, 0, 0.8);
 }
 
-.hero .reason .card-destination {
-  height: 350px;
-  background-size: cover;
-  border-radius: 10px;
+.hero .service h1 {
+  padding-bottom: 30px;
 }
 
-.hero .reason .card-destination .card-body {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(48.96%, rgba(0, 0, 0, 0)), to(#000000));
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.96%, #000000 100%);
-  border-radius: 10px;
+.hero .service h2 {
+  width: 750px;
+  height: 144px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  -webkit-transform: translate(200px);
+          transform: translate(200px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #000000;
+}
+
+.hero .service .card-destination {
   position: relative;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 350px;
+  height: 229.23px;
+  -ms-grid-columns: 100px 200px;
+      grid-template-columns: 100px 200px;
+  display: -ms-grid;
+  display: grid;
 }
 
-.hero .reason .card-destination .card-body .content {
+.hero .service .card-destination .card-body {
+  position: absolute;
+  background-size: cover;
+  padding: 2rem 1rem;
+}
+
+.hero .service .card-destination .card-body img {
+  width: 60%;
+  height: 60%;
+  left: 217px;
+  margin-left: 15px;
+  margin-top: 38px;
+}
+
+.hero .service .card-destination .card-body h3 {
+  padding-left: 130px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  /* or 100% */
+  letter-spacing: -0.015em;
+}
+
+.hero .service .card-destination .card-body p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 278.88px;
+  height: auto;
+  padding-left: 130px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  /* or 154% */
+  text-align: justify;
+}
+
+.hero .service .card-destination .card-body .content {
   position: absolute;
   bottom: 20px;
 }
 
-.hero .reason .card-destination .card-body .content h3 {
+.hero .service .card-destination .card-body .content h3 {
   color: #FFFFFF;
 }
 
-.hero .reason .card-destination .card-body .content p {
+.hero .service .card-destination .card-body .content p {
   color: #E5E5E5;
   padding: auto;
 }
 
+.portfolio .carousel-inner .carousel-item .carousel-caption img {
+  overflow: visible;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+}
+
+.portfolio .portolainnya {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.portfolio .portolainnya .btn-blue {
+  background-color: #123C69;
+  color: #FFFFFF;
+  padding: 8px 40px;
+}
+
+.portfolio .portolainnya .btn-blue.active {
+  color: #123C69;
+}
+
+.portfolio .portolainnya .btn-blue:hover {
+  color: #123C69;
+  background-color: #FFFFFF;
+}
+
+.client h1 {
+  padding-bottom: 30px;
+}
+
+.client img {
+  justify-items: center;
+  padding: 1rem 1rem;
+  width: 20%;
+}
+
+.testimony h1 {
+  padding-bottom: 30px;
+}
+
+.testimony h2 {
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  margin: 25px 0 50px;
+}
+
+.testimony h2::after {
+  content: "";
+  width: 100px;
+  position: absolute;
+  margin: 0 auto;
+  height: 3px;
+  background: #ffdc12;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+}
+
+.testimony .carousel {
+  width: 650px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.testimony .carousel .carousel-item {
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
+  min-height: 340px;
+}
+
+.testimony .carousel .carousel-item a {
+  color: #F06305;
+}
+
+.testimony .carousel .img-box {
+  width: 145px;
+  height: 145px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.testimony .carousel .img-box img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+}
+
+.testimony .carousel .testimonial {
+  padding: 30px 0 10px;
+}
+
+.testimony .carousel .overview {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.testimony .carousel .overview b {
+  color: #333;
+  font-size: 15px;
+  text-transform: uppercase;
+  display: block;
+  padding-bottom: 5px;
+}
+
+.testimony .carousel-control-prev, .testimony .carousel-control-next {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #999;
+  text-shadow: none;
+  top: 4px;
+}
+
+.testimony .carousel-control-prev i, .testimony .carousel-control-next i {
+  font-size: 20px;
+  margin-right: 2px;
+}
+
+.testimony .carousel-control-prev {
+  left: auto;
+  right: 40px;
+}
+
+.testimony .carousel-control-next i {
+  margin-right: -2px;
+}
+
+.testimony .carousel .carousel-indicators {
+  bottom: 15px;
+}
+
+.testimony .carousel-indicators li, .testimony .carousel-indicators li.active {
+  width: 11px;
+  height: 11px;
+  margin: 1px 5px;
+  border-radius: 50%;
+}
+
+.testimony .carousel-indicators li {
+  background: #e2e2e2;
+  border: none;
+}
+
+.testimony .carousel-indicators li.active {
+  background: #123C69;
+}
+
+.pricing h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: rgba(0, 0, 0, 0.49);
+}
+
+.pricing .card {
+  -webkit-filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.45));
+          filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.45));
+  padding: 2rem 2rem;
+}
+
+.pricing .card .card-body {
+  text-align: left;
+  width: 250px;
+  height: 500px;
+}
+
+.pricing .card .tittle-list {
+  font-style: normal;
+  font-weight: 700;
+  width: 300px;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  letter-spacing: -0.015em;
+}
+
+.pricing .card .caption-class {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0px;
+  /* or 116% */
+  letter-spacing: -0.015em;
+  padding-bottom: 20px;
+  color: rgba(0, 0, 0, 0.56);
+}
+
+.pricing .card .label {
+  position: static;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 154% */
+  letter-spacing: -0.015em;
+  padding: 0px 20px;
+  color: #FFFFFF;
+  background-color: #123C69;
+}
+
+.pricing .card .harga {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 18px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  /* or 92% */
+  letter-spacing: -0.015em;
+}
+
+.pricing .card .harga span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 154% */
+  letter-spacing: -0.015em;
+}
+
+.pricing .card .list-item {
+  padding: 20px 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  /* identical to box height, or 179% */
+  letter-spacing: -0.015em;
+}
+
+.pricing .card .list-item i {
+  color: #123C69;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.pricing .card .list-item .isi-text {
+  padding-left: 10px;
+  color: #1D1D1D;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 179% */
+  letter-spacing: -0.015em;
+}
+
+.pricing .card .list-item .fa-circle {
+  color: rgba(0, 0, 0, 0.5);
+}
+
 .footer {
   background-color: #123C69;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer hr {
+  color: white;
+}
+
+.footer .footer-tittle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 10px;
+  /* or 31% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: -0.015em;
+}
+
+.footer .footer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .footer-list li {
+  padding: 0;
+}
+
+.footer .footer-list li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 10px;
+  /* or 50% */
+  letter-spacing: -0.015em;
+}
+
+.footer .social-media a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 10px;
+  /* or 50% */
+  letter-spacing: -0.015em;
 }
 /*# sourceMappingURL=style.css.map */
